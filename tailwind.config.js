@@ -4,7 +4,13 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}", // Add your project file paths here
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        bgprimary: '#d6542c',
+        textColor: '#eda28a',
+
+      }
+    },
   },
   plugins: [],
 };
